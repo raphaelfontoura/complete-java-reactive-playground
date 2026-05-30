@@ -1,7 +1,7 @@
-package com.github.raphaelfontoura;
+package com.github.raphaelfontoura.section1;
 
-import com.github.raphaelfontoura.publisher.PublisherImpl;
-import com.github.raphaelfontoura.subscriber.SubscriberImpl;
+import com.github.raphaelfontoura.section1.publisher.PublisherImpl;
+import com.github.raphaelfontoura.section1.subscriber.SubscriberImpl;
 
 import java.time.Duration;
 

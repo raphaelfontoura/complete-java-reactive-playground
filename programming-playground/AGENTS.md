@@ -21,7 +21,7 @@
 
 ## Build, Run, and Verify
 - Build classes: `mvn clean compile`
-- Run demos (preferred): `mvn exec:java -Dexec.mainClass="com.github.raphaelfontoura.Main"`
+- Run demos (preferred): `mvn exec:java -Dexec.mainClass="com.github.raphaelfontoura.section1.Main"`
 - Run tests: `mvn test` (test tree exists but may be minimal/empty initially).
 - Logging is configured in `src/main/resources/logback.xml` (root `INFO`, stdout pattern).
 

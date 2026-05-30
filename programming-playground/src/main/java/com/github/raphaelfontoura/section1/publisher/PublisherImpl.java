@@ -1,4 +1,4 @@
-package com.github.raphaelfontoura.publisher;
+package com.github.raphaelfontoura.section1.publisher;
 
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;

@@ -1,4 +1,4 @@
-package com.github.raphaelfontoura.publisher;
+package com.github.raphaelfontoura.section1.publisher;
 
 import com.github.javafaker.Faker;
 import org.reactivestreams.Subscriber;
@@ -22,7 +22,7 @@ public class SubscriptionImpl implements Subscription {
 
     @Override
     public void request(long requested) {
-        if(isCancelled) {
+        if (isCancelled) {
             return;
         }
         log.info("subscriber has requested {} items", requested);

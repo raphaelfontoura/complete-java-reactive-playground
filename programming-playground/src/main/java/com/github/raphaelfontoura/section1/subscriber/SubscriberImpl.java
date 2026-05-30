@@ -1,4 +1,4 @@
-package com.github.raphaelfontoura.subscriber;
+package com.github.raphaelfontoura.section1.subscriber;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
