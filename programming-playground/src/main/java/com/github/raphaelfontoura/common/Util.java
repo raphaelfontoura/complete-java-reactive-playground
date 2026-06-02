@@ -12,7 +12,7 @@ public class Util {
     private static final Logger log = LoggerFactory.getLogger(Util.class);
     private static final Faker faker = Faker.instance();
 
-    public static <T>Subscriber<T> subscriber() {
+    public static <T> Subscriber<T> subscriber() {
         return new DefaultSubscriber<>("");
     }
 
