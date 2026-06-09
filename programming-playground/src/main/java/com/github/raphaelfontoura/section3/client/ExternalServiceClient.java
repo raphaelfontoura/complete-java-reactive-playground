@@ -11,4 +11,12 @@ public class ExternalServiceClient extends AbstractHttpClient {
                 .responseContent()
                 .asString();
     }
+
+    public Flux<Integer> getStock() {
+        return this.httpClient.get()
+                .uri("/demo02/stock/stream")
+                .responseContent()
+                .asString()
+                .map(Integer::valueOf);
+    }
 }
