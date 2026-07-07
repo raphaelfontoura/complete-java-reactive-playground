@@ -1,6 +1,5 @@
 package com.github.raphaelfontoura.section2.assignment;
 
-import com.github.raphaelfontoura.common.Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
