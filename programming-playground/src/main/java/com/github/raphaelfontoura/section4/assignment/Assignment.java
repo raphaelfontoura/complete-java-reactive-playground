@@ -17,6 +17,7 @@ public class Assignment {
         var fileReaderService = new FileReaderServiceImpl();
 
         fileReaderService.read(path)
+//                .take(3)
                 .subscribe(Util.subscriber());
     }
 }
