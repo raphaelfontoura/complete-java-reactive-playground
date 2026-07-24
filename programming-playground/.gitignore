@@ -46,6 +46,7 @@ replay_pid*
 
 ### Package Files ###
 *.jar
+!programming-playground/external-services.jar
 *.war
 *.ear
 *.zip
